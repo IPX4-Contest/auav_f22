@@ -42,7 +42,7 @@ This repository consists of 4 docker containers and several source directories.
 Before you can build the PX4 Firmware, you will need to clone the submodule. Recursive clone is not
 necessary here as the PX4 makefile automatically handles this.
 ```bash
-git submodule update --init
+git submodule update --init --recursive
 ```
 
 ## Pull

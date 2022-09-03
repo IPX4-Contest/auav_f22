@@ -27,7 +27,8 @@ This repository uses docker and docker compose:
 
 Docker now natively supports NVidia GPUs. We have tested docker with the following drivers:
 ```bash
-sudo apt install nvidia-driver-515 libnvidia-gl-515-server
+sudo apt install aptitude -y
+sudo aptitude install nvidia-driver-515 libnvidia-gl-515-server
 ```
 
 ## Docker Images
